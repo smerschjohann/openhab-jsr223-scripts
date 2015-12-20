@@ -1,10 +1,7 @@
-As I have some rather unusual scripts, I wanted to publish them in the hope they become handy for anyone. Even if you don't have the devices or setup itself, it might become handy the way they were scripted.
+As I have some rather unusual scripts, I wanted to publish them in the hope they become handy for someone. Even if you don't have the devices or setup itself, it might become handy the way they were scripted.
 
 # Common Library
 I build some scripts that are reusable in multiple script sets. For this reason I added a directory with common scripts which get sourced into the python script. For some reason it does not work with default import mechanism of python, but execfile is working fine.
-
-The 
-
 
 ## Exec/CommandMap Rule
 This Script consist of a general ExecRule class which does the general mapping. You simply define which items should be listened on and it will translate commands -> values.
